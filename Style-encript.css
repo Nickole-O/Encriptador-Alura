@@ -1,0 +1,247 @@
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #E9ECF8;
+}
+
+.body{
+    background-color: #E5E5E5;
+}
+
+.header{
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+}
+
+.encabezado{
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    color: #0a7160;
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    margin-top: 90px;
+    margin-left: 5em;    
+    margin-bottom: 1em;
+    text-transform: lowercase;
+    width: 400px;
+    height: 250px;
+    left: 15%;
+    top: 16px;
+    border-radius: 12px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    justify-content: baseline;
+    /* identical to box height, or 48px */
+    resize: none;
+  
+  
+    color: #0a7160;
+    background: #FFFFFF;
+    outline: #0a7160;
+    }
+
+::placeholder { 
+    padding-left: 25px;
+    color: #0a7160; 
+}
+  
+  .text-input:focus { 
+      border: #0a7160;
+      outline: #0a7160;;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.btnEncriptar{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+    
+    background: #D8DFE8;
+    border: 1px solid #0a7160;
+    border-radius: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #0a7160;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center; 
+}
+
+.btnDesencriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0a7160;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+    color: #0a7160;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+}
+
+
+
+.mensaje {
+    position: absolute;
+    margin-left: 35em;
+
+    width: 400px;
+    height: 450px;
+    left: 60px;
+    top: 52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 36px */
+    resize: none;
+  
+    /* Gray/gray-400 */
+  
+    color: #0a7160;
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    /*background-image: url("Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 40px ;
+    background-size: 350px;*/
+  }
+
+  .mensaje:focus { 
+    border: none;
+    outline: none;
+    }
+
+::placeholder { 
+    padding-top: 1em;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.label {
+    position: static;
+    width: auto;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    padding-left: 35px;
+    font-weight: 600;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-size:20px;
+    line-height: 100%;
+  
+    /* identical to box height, or 18px */
+    
+    
+    /* Gray/gray-300 */
+    color: #495057;
+}
+    
+
+.copiar{
+    display: flex ;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 33em;
+    top: 20em;
+  
+    border: 1px solid #0a7160;
+    box-sizing: border-box;
+    border-radius: 24px;
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+    
+    
+    color: #0a7160;
+    
+
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+    justify-content: center;
+
+    /*muñeco.png display: none;*/
+  }
+        
+.rodapie{
+    margin-top: 5em;
+    margin-left: 2em;
+    position: static ;
+    background: #0a7160ad;
+    font-family: 'Inter', sans-serif;
+}

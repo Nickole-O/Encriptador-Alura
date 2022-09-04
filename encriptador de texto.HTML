@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="Style-encript.css">
+
+</head>
+<body>
+    
+    <header>
+        <img class="imgMensaje" src="Vector.png" alt="Logo de alura con la inicial de la letra a"> <label class="encabezado"> Encriptador de Texto </label>
+    </header>
+   
+    <main>
+        <section>
+            <textarea class="input-texto" type="text" name="input-texto" maxlength="120" id="input-texto" placeholder=" Ingrese el texto aquí "></textarea>
+            <div class="información">
+                <img src="signoAdmiración.png" alt="Circulo de exclamación"> <label> Solo letras minúsculas y sin acentos </label>
+            </div>
+            
+            <div class="botones">
+                <button class="btnEncriptar" onclick="btnEncriptar()"> Encriptar </button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()"> Desencriptar </button>
+            </div>
+        </section>
+
+        <section class="mensaje-box">
+            <textarea class="mensaje" type="text" placeholder="Todavía no ha escrito un mensaje"></textarea> 
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+
+    <script src="script-encript.js"> </script>
+
+    <footer class="rodapie">
+    <p><em> Realizado por: Nickole Obando </em></p>
+    </footer>
+
+</body>
+
+</html>
